@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class SpringbootApplication {
-	@GetMapping("/greeting")
-	public String greeting() {
-		return "Hello World";
+	@GetMapping("/")
+	public String home	() {
+		return "Hello, Spring Boot WAR deployed successfully!";
 	}
 
 	public static void main(String[] args) {
