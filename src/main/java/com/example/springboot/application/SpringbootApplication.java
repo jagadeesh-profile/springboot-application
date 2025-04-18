@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringbootApplication {
 	@GetMapping("/")
-	public String home	() {
+	public String home() {
 		return "Hello, Spring Boot WAR deployed successfully!";
 	}
 
